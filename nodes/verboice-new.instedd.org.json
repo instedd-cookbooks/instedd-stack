@@ -1,0 +1,17 @@
+{
+  "run_list": [
+    "instedd-common::config_from_bag",
+    "verboice",
+    "verboice::asterisk",
+    "role[email_relay]"
+  ],
+  "automatic": {
+    "ipaddress": "verboice-new.instedd.org"
+  },
+  "verboice": {
+    "host_name": "verboice-new.instedd.org"
+  },
+  "config_from_bag": {
+    "mysql": "mysql1"
+  }
+}

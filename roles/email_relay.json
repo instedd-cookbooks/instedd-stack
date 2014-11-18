@@ -1,0 +1,14 @@
+{
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "postfix::server"
+  ],
+  "default_attributes": {
+    "postfix": {
+      "main": {
+        "smtpd_use_tls": "no"
+      }
+    }
+  }
+}

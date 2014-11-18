@@ -1,0 +1,5 @@
+.bundle
+.vagrant
+.instedd_secret_key
+cookbooks
+site-cookbooks

@@ -1,0 +1,21 @@
+{
+  "id": "mysql1",
+  "server_host": {
+    "encrypted_data": "E+VDnp0wduwAy0Ic+Sks+TVAH+fg9tuhprID5ZWxRXNwiVgJ8x1RT4n2+bal\nhN+JcUJHAEFsFajARp3iBlXrnRv2qk4sFBqHkaj5TKAVk4g=\n",
+    "iv": "CvYkje4emBQnZLiO0wF1Aw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "admin_username": {
+    "encrypted_data": "fQb7+ucYLTr7v+A5SVEG4AyVOGV8z8yitaq1uA5bmWk=\n",
+    "iv": "/fXb6PvBSNjc5rEylO/MeQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "admin_password": {
+    "encrypted_data": "2FVMZdMLhOrkX+q45LZ3sGeKAHi79v7eRUkuI4VbPPnoctBCdwyomC5XvcNC\n+QKE\n",
+    "iv": "sEMKRYTGtFqZ8xVmTHFINg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
