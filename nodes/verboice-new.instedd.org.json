@@ -9,9 +9,24 @@
     "ipaddress": "verboice-new.instedd.org"
   },
   "verboice": {
-    "host_name": "verboice-new.instedd.org"
+    "host_name": "verboice-new.instedd.org",
+    "poirot": {
+      "enabled": true,
+      "server": "10.147.15.222:2120",
+      "elasticsearch_url": "http://10.147.15.222:9200"
+    },
+    "guisso": {
+      "enabled": true
+    }
   },
   "config_from_bag": {
-    "mysql": "mysql1"
+    "mysql": "mysql1",
+    "guisso": {
+      "item": "verboice-new",
+      "values": {
+        "client_id": ["verboice", "guisso", "client_id"],
+        "client_secret": ["verboice", "guisso", "client_secret"]
+      }
+    }
   }
 }
