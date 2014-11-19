@@ -1,0 +1,27 @@
+{
+  "id": "cellcom-sip",
+  "leftid": {
+    "encrypted_data": "aULHVS62vVl9tOclR9H72QEYjM2qMDM4zdJbkuyZk91Ap4Ur/5UIpw9o8q7G\n8W5K\n",
+    "iv": "7RboDgNA3CP0nIVcqZiRPw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "right": {
+    "encrypted_data": "Y/W8D0sAlBvJajn9yE1yLHW7MF0VG1wZjO10xY6m3S8MbRDDz6OtRMC0PYNx\nLFII\n",
+    "iv": "V04bNmtn6RYgG51pQLdOIg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "rightsubnets": {
+    "encrypted_data": "DUkwB+V5HnlQgUjuulUrB7gOarsDuYI4tuXGNUPCh1bmr7A8Uo+dlVpw2OfM\nLnhc\n",
+    "iv": "X26VgxZJku/I5Wgn0hOlfQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "secret": {
+    "encrypted_data": "zUau+VdK2HFj5qOFgV+dgzLru8JZYgy6yck2jZTGLO8=\n",
+    "iv": "4FQeFhMCLnlg45iqd6KxYg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

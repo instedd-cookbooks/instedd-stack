@@ -3,18 +3,22 @@ DEPENDENCIES
     path: site-cookbooks/act
   bag_config
   instedd-common
-    path: site-cookbooks/instedd-common
+    git: git://github.com/instedd-cookbooks/instedd-common.git
+    revision: 89178761a74fd1431e46dd4daedc06dcd2ea04c8
   mysql
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
     branch: patches/amazon-2014.09
   nuntium
-    path: site-cookbooks/nuntium
+    git: git://github.com/instedd-cookbooks/nuntium.git
+    revision: 8e073f7a8ccb120bef4c7de96cde7a05644cd136
   openswan
-    path: site-cookbooks/openswan
+    git: git://github.com/instedd-cookbooks/openswan.git
+    revision: 137303ba23a2f29175694ecceba9206f154652d0
   postfix
   verboice
-    path: site-cookbooks/verboice
+    git: git://github.com/instedd-cookbooks/verboice.git
+    revision: c770de768d81bac4d1ceb4ff122ed6195ad89a2e
 
 GRAPH
   7-zip (1.0.2)

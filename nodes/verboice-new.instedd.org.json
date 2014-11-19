@@ -3,7 +3,8 @@
     "instedd-common::config_from_bag",
     "verboice",
     "verboice::asterisk",
-    "role[email_relay]"
+    "role[email_relay]",
+    "act::cellcom-sip-vpn"
   ],
   "automatic": {
     "ipaddress": "verboice-new.instedd.org"
@@ -17,6 +18,9 @@
     },
     "guisso": {
       "enabled": true
+    },
+    "asterisk": {
+      "external_ip": "54.85.167.137"
     }
   },
   "config_from_bag": {
