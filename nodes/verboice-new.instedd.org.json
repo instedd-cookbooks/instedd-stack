@@ -12,8 +12,8 @@
     "host_name": "verboice-new.instedd.org",
     "poirot": {
       "enabled": true,
-      "server": "10.147.15.222:2120",
-      "elasticsearch_url": "http://10.147.15.222:9200"
+      "server": "174.129.225.38:2120",
+      "elasticsearch_url": "http://174.129.225.38:9200"
     },
     "guisso": {
       "enabled": true
