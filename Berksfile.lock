@@ -2,9 +2,10 @@ DEPENDENCIES
   act
     path: site-cookbooks/act
   bag_config
+  chef-solo-search
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: d7877ad03e9eb27a1e00e84d6f893b407dfa60a9
+    revision: 06e71c3caf52fc29aceffaa6725226d893a93eb2
   mysql
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
@@ -16,9 +17,10 @@ DEPENDENCIES
     git: git://github.com/instedd-cookbooks/openswan.git
     revision: 137303ba23a2f29175694ecceba9206f154652d0
   postfix
+  ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: b2907aa04a35a946b0cead50af1a9132565c7490
+    revision: 246ee4607f05b72c24808bd4c7b42a868a75673a
 
 GRAPH
   7-zip (1.0.2)
@@ -44,6 +46,7 @@ GRAPH
   aws (2.4.0)
   bag_config (2.0.1)
   build-essential (2.0.6)
+  chef-solo-search (0.5.1)
   chef-sugar (2.0.0)
   chef_handler (1.1.6)
   database (2.3.0)
@@ -113,6 +116,7 @@ GRAPH
     build-essential (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  ssl (1.1.1)
   unicorn (2.0.0)
   verboice (0.1.0)
     database (>= 0.0.0)

@@ -1,5 +1,7 @@
 {
   "run_list": [
+    "chef-solo-search",
+    "ssl",
     "instedd-common::config_from_bag",
     "verboice",
     "verboice::asterisk",
@@ -11,6 +13,14 @@
   },
   "verboice": {
     "host_name": "verboice.instedd.org",
+    "web": {
+      "ssl": {
+        "enabled": true,
+        "cert_file": "/etc/ssl/certs/instedd.org.crt",
+        "cert_key_file": "/etc/ssl/private/instedd.org.key",
+        "cert_chain_file": "/etc/ssl/certs/instedd.org.chain.crt"
+      }
+    },
     "poirot": {
       "enabled": true,
       "server": "174.129.225.38:2120",
