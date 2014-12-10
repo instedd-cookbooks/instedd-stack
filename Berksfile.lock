@@ -5,7 +5,7 @@ DEPENDENCIES
   chef-solo-search
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: 06e71c3caf52fc29aceffaa6725226d893a93eb2
+    revision: e4b715948678a485ccc99e1aae0036436eb9546b
   mysql
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
@@ -20,7 +20,7 @@ DEPENDENCIES
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: 246ee4607f05b72c24808bd4c7b42a868a75673a
+    revision: 28dad270817b3fd934e8b9ac1a486bee3456eae4
 
 GRAPH
   7-zip (1.0.2)
