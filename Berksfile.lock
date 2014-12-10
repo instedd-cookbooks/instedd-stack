@@ -4,7 +4,7 @@ DEPENDENCIES
   bag_config
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: 89178761a74fd1431e46dd4daedc06dcd2ea04c8
+    revision: d7877ad03e9eb27a1e00e84d6f893b407dfa60a9
   mysql
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
@@ -18,7 +18,7 @@ DEPENDENCIES
   postfix
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: c770de768d81bac4d1ceb4ff122ed6195ad89a2e
+    revision: b2907aa04a35a946b0cead50af1a9132565c7490
 
 GRAPH
   7-zip (1.0.2)

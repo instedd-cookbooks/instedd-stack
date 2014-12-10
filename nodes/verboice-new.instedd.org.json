@@ -10,7 +10,7 @@
     "ipaddress": "verboice-new.instedd.org"
   },
   "verboice": {
-    "host_name": "verboice-new.instedd.org",
+    "host_name": "verboice.instedd.org",
     "poirot": {
       "enabled": true,
       "server": "174.129.225.38:2120",
@@ -30,6 +30,14 @@
       "values": {
         "client_id": ["verboice", "guisso", "client_id"],
         "client_secret": ["verboice", "guisso", "client_secret"]
+      }
+    },
+    "verboice": {
+      "item": "verboice-new",
+      "values": {
+        "nuntium_password": ["verboice", "broker", "nuntium", "password"],
+        "oauth_google_api_key": ["verboice", "oauth", "google", "api_key"],
+        "oauth_google_api_secret": ["verboice", "oauth", "google", "api_secret"]
       }
     }
   }

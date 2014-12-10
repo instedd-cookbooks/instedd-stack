@@ -1,0 +1,21 @@
+{
+  "id": "verboice-new",
+  "nuntium_password": {
+    "encrypted_data": "Jee7MYkgJG+RBqpRYud9GLlnydXf8wqa2eDolQd/N9yUmmBo3d4N8Oyvtjnb\nkoXR\n",
+    "iv": "bciKwtoQ6UBxnC9uY0UY9g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "oauth_google_api_key": {
+    "encrypted_data": "VtcZdjmsP+nObL6eEe+LWDRH33ifSKVCFUup4sAPOW+EAfqdbKnSHD26iLMY\nWJ2ZGrZFeTXtJH+PjVODJZghQzDB6cPmH7uPC/2t6+cJrBlOKdaVPI9lC8/2\nMr9fUNQF\n",
+    "iv": "M0E1lS8yht7aP8VcfJYK6A==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "oauth_google_api_secret": {
+    "encrypted_data": "VvHYrTkNbHewk2FW6cxbKWtMT3tPCK97vQjIpHsYKdrx/24MCYs+jjfRBnXm\nwybD\n",
+    "iv": "EfwvyYOAAhSmmThYm7OeYw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
