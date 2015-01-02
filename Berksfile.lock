@@ -10,6 +10,7 @@ DEPENDENCIES
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
     branch: patches/amazon-2014.09
+  newrelic
   nuntium
     git: git://github.com/instedd-cookbooks/nuntium.git
     revision: 8e073f7a8ccb120bef4c7de96cde7a05644cd136
@@ -20,7 +21,7 @@ DEPENDENCIES
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: 5df7dd19a1a160d3a6d6379faa7c1c6b71e001e4
+    revision: a70779bd1a43f58dbf50683370ba3a1df1ba127b
 
 GRAPH
   7-zip (1.0.2)
@@ -49,6 +50,7 @@ GRAPH
   chef-solo-search (0.5.1)
   chef-sugar (2.4.1)
   chef_handler (1.1.6)
+  curl (2.0.1)
   database (2.3.1)
     aws (>= 0.0.0)
     mysql (~> 5.0)
@@ -80,6 +82,9 @@ GRAPH
   mysql-chef_gem (0.0.5)
     build-essential (>= 0.0.0)
     mysql (>= 0.0.0)
+  newrelic (2.5.2)
+    curl (>= 0.0.0)
+    python (>= 0.0.0)
   nodejs (2.1.0)
     apt (>= 0.0.0)
     ark (>= 0.0.0)
@@ -105,6 +110,9 @@ GRAPH
     apt (>= 1.9.0)
     build-essential (>= 0.0.0)
     openssl (>= 0.0.0)
+  python (1.4.6)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
   rabbitmq (3.3.0)
     erlang (>= 0.9)
   rbenv (1.7.1)

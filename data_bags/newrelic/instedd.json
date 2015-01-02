@@ -1,0 +1,9 @@
+{
+  "id": "instedd",
+  "license": {
+    "encrypted_data": "Tu9xmL3A7Fw2jXs3as/EDmnnBbE2tH3KzJ03lbFXT0usQjSwklrnTEFlDqrU\nwRCuKDG0Mt0atv9/bSNJLWnNpw==\n",
+    "iv": "9+NaeYpS19dkE0It99V/QA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

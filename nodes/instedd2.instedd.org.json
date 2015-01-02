@@ -1,0 +1,12 @@
+{
+  "run_list": [
+    "instedd-common::config_from_bag",
+    "newrelic"
+  ],
+  "automatic": {
+    "ipaddress": "instedd2.instedd.org"
+  },
+  "config_from_bag": {
+    "newrelic": "instedd"
+  }
+}

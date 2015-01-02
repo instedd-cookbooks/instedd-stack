@@ -5,6 +5,7 @@ cookbook "postfix"
 cookbook "bag_config"
 cookbook "ssl"
 cookbook "chef-solo-search"
+cookbook "newrelic"
 
 cookbook "instedd-common", github: "instedd-cookbooks/instedd-common"
 cookbook "verboice", github: "instedd-cookbooks/verboice"
