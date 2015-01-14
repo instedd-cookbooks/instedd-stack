@@ -13,7 +13,7 @@ DEPENDENCIES
   newrelic
   nuntium
     git: git://github.com/instedd-cookbooks/nuntium.git
-    revision: e467bc6f5c099f76c473af072de3f44a3ce5919e
+    revision: 30314940ab39a6defa3b3b340b0f413a9f3e3c81
   openswan
     git: git://github.com/instedd-cookbooks/openswan.git
     revision: 137303ba23a2f29175694ecceba9206f154652d0
@@ -87,6 +87,7 @@ GRAPH
     database (>= 2.3.1)
     instedd-common (>= 0.0.0)
     mysql (< 6.0.0)
+    newrelic (>= 0.0.0)
     nodejs (>= 0.0.0)
     rabbitmq (>= 0.0.0)
     rbenv (>= 0.0.0)

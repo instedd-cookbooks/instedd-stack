@@ -2,7 +2,8 @@
   "run_list": [
     "instedd-common::config_from_bag",
     "postfix::server",
-    "nuntium::default"
+    "nuntium::default",
+    "newrelic"
   ],
   "automatic": {
     "ipaddress": "54.164.148.246"
@@ -12,9 +13,13 @@
     "guisso": {
       "enabled": true,
       "url": "http://login-stg.instedd.org"
+    },
+    "newrelic": {
+      "app_name": "Nuntium (staging)"
     }
   },
   "config_from_bag": {
+    "newrelic": "instedd",
     "guisso": {
       "item": "nuntium-stg",
       "values": {
