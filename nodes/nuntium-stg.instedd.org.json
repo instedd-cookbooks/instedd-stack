@@ -1,0 +1,26 @@
+{
+  "run_list": [
+    "instedd-common::config_from_bag",
+    "postfix::server",
+    "nuntium::default"
+  ],
+  "automatic": {
+    "ipaddress": "54.164.148.246"
+  },
+  "nuntium": {
+    "host_name": "nuntium-stg.instedd.org",
+    "guisso": {
+      "enabled": true,
+      "url": "http://login-stg.instedd.org"
+    }
+  },
+  "config_from_bag": {
+    "guisso": {
+      "item": "nuntium-stg",
+      "values": {
+        "client_id": ["nuntium", "guisso", "client_id"],
+        "client_secret": ["nuntium", "guisso", "client_secret"]
+      }
+    }
+  }
+}

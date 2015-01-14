@@ -13,7 +13,7 @@ DEPENDENCIES
   newrelic
   nuntium
     git: git://github.com/instedd-cookbooks/nuntium.git
-    revision: 8e073f7a8ccb120bef4c7de96cde7a05644cd136
+    revision: e467bc6f5c099f76c473af072de3f44a3ce5919e
   openswan
     git: git://github.com/instedd-cookbooks/openswan.git
     revision: 137303ba23a2f29175694ecceba9206f154652d0
@@ -32,14 +32,6 @@ GRAPH
     iptables (>= 0.0.0)
     logrotate (>= 0.0.0)
     pacman (>= 0.0.0)
-  application (4.1.4)
-  application_ruby (3.0.2)
-    apache2 (>= 0.0.0)
-    application (~> 4.0)
-    logrotate (~> 1.0)
-    passenger_apache2 (>= 0.0.0)
-    runit (~> 1.0)
-    unicorn (>= 0.0.0)
   apt (2.5.2)
   ark (0.9.0)
     7-zip (>= 0.0.0)
@@ -91,9 +83,10 @@ GRAPH
     build-essential (>= 0.0.0)
     yum-epel (>= 0.0.0)
   nuntium (0.1.0)
-    application_ruby (>= 0.0.0)
-    database (>= 0.0.0)
-    mysql (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    database (>= 2.3.1)
+    instedd-common (>= 0.0.0)
+    mysql (< 6.0.0)
     nodejs (>= 0.0.0)
     rabbitmq (>= 0.0.0)
     rbenv (>= 0.0.0)
@@ -113,7 +106,7 @@ GRAPH
   python (1.4.6)
     build-essential (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  rabbitmq (3.3.0)
+  rabbitmq (3.8.0)
     erlang (>= 0.9)
   rbenv (1.7.1)
     apt (>= 0.0.0)
@@ -125,7 +118,6 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   ssl (1.1.1)
-  unicorn (2.0.0)
   verboice (0.1.0)
     build-essential (>= 0.0.0)
     database (>= 2.3.1)

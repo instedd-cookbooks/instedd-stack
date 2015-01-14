@@ -1,0 +1,15 @@
+{
+  "id": "nuntium-stg",
+  "client_id": {
+    "encrypted_data": "PC6JT0ojPNV+XovOsnm2c+HqN3sQlVc2fT3tiDS1EK8gxvN7+akpaqd/v8xS\nGIf+\n",
+    "iv": "oEZ1j8OljniLynKS+Xkt0A==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "client_secret": {
+    "encrypted_data": "Ht0thFddWBFX7BXJzwrBYApboQjvWyBTKbslmpsbLwcd8aGGSfO3FMo6kd/p\ngMoU82LacNtKIvJSAtDRNUXh+Q==\n",
+    "iv": "SYZvihbl2WlwkGIPb/oeOA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
