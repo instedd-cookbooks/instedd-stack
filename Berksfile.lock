@@ -13,7 +13,7 @@ DEPENDENCIES
   newrelic
   nuntium
     git: git://github.com/instedd-cookbooks/nuntium.git
-    revision: 30314940ab39a6defa3b3b340b0f413a9f3e3c81
+    revision: 177208dc58d5e1e83ef8975f642bcb8be40b83e6
   openswan
     git: git://github.com/instedd-cookbooks/openswan.git
     revision: 137303ba23a2f29175694ecceba9206f154652d0
