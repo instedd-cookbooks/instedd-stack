@@ -6,10 +6,11 @@
     "verboice",
     "verboice::asterisk",
     "role[email_relay]",
-    "act::cellcom-sip-vpn"
+    "act::cellcom-sip-vpn",
+    "newrelic"
   ],
   "automatic": {
-    "ipaddress": "verboice-new.instedd.org"
+    "ipaddress": "verboice.instedd.org"
   },
   "verboice": {
     "host_name": "verboice.instedd.org",
@@ -36,15 +37,16 @@
   },
   "config_from_bag": {
     "mysql": "mysql1",
+    "newrelic": "instedd",
     "guisso": {
-      "item": "verboice-new",
+      "item": "verboice",
       "values": {
         "client_id": ["verboice", "guisso", "client_id"],
         "client_secret": ["verboice", "guisso", "client_secret"]
       }
     },
     "verboice": {
-      "item": "verboice-new",
+      "item": "verboice",
       "values": {
         "nuntium_password": ["verboice", "broker", "nuntium", "password"],
         "oauth_google_api_key": ["verboice", "oauth", "google", "api_key"],
