@@ -1,0 +1,15 @@
+{
+  "id": "resourcemap",
+  "username": {
+    "encrypted_data": "vff7B5cD089FTaIY13oKTBmngmuKaYVKVOuUiB9BjuU=\n",
+    "iv": "u74A9T+dyd3EG0UBCMb11g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password": {
+    "encrypted_data": "Bn36J/HQ69Evw36eSqSrnHbBgZARVjqDEGDwx1mwUjq7ELLOMfhd5gslKe3A\nluq+\n",
+    "iv": "PNPPacIbsjJjzUnbDuY1DA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "run_list": [
+    "instedd-common::config_from_bag",
+    "resourcemap"
+  ],
+  "automatic": {
+    "ipaddress": "resourcemap.instedd.org"
+  },
+  "resourcemap": {
+    "host_name": "resourcemap.instedd.org",
+    "guisso": {
+      "enabled": true
+    },
+    "plugins": {
+      "public_collection": true,
+      "snapshot": true,
+      "channels": false,
+      "reminders": true,
+      "alerts": true,
+      "fred_api": true,
+      "csd_api": true
+    }
+  },
+  "mysql": {
+    "server_root_password": ""
+  },
+  "config_from_bag": {
+    "guisso": {
+      "item": "resourcemap",
+      "values": {
+        "client_id": ["resourcemap", "guisso", "client_id"],
+        "client_secret": ["resourcemap", "guisso", "client_secret"]
+      }
+    },
+    "mysql": {
+      "item": "resourcemap",
+      "values": {
+        "username": ["resourcemap", "mysql", "username"],
+        "password": ["resourcemap", "mysql", "password"]
+      }
+    }
+  }
+}

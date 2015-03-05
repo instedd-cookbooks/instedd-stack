@@ -1,0 +1,15 @@
+{
+  "id": "resourcemap",
+  "client_id": {
+    "encrypted_data": "rS5slRSN8I4AFV73WZfQBUzKEhdEq0Cf8H/SybOMb3YWXmFI1XwMnXx0tKJZ\n8nHO\n",
+    "iv": "tPllUz44XCYDH96oGwSxmA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "client_secret": {
+    "encrypted_data": "+Q2nXrvb95sOc0bXtQ78SH4e1vHakX7gqIGTJ+u4dvx+me+haRI4AE/E8w+4\n+vQz3DbJ3Q5th6OIB947kVOmAQ==\n",
+    "iv": "aGpet99Y87Xb0aOsCpIaQQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

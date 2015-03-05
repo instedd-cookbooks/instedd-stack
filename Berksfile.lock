@@ -18,6 +18,9 @@ DEPENDENCIES
     git: git://github.com/instedd-cookbooks/openswan.git
     revision: 137303ba23a2f29175694ecceba9206f154652d0
   postfix
+  resourcemap
+    git: git://github.com/instedd-cookbooks/resourcemap.git
+    revision: a7f108640bc0176fc28cc5fa79f57888d118fed8
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
@@ -114,6 +117,12 @@ GRAPH
     build-essential (>= 0.0.0)
     git (>= 0.0.0)
     ohai (>= 1.1)
+  resourcemap (0.1.0)
+    database (>= 2.3.1)
+    instedd-common (>= 0.0.0)
+    mysql (< 6.0.0)
+    nodejs (>= 0.0.0)
+    rbenv (>= 0.0.0)
   runit (1.5.10)
     build-essential (>= 0.0.0)
     yum (~> 3.0)

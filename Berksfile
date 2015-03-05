@@ -10,6 +10,7 @@ cookbook "newrelic"
 cookbook "instedd-common", github: "instedd-cookbooks/instedd-common"
 cookbook "verboice", github: "instedd-cookbooks/verboice"
 cookbook "nuntium", github: "instedd-cookbooks/nuntium"
+cookbook "resourcemap", github: "instedd-cookbooks/resourcemap"
 cookbook "openswan", github: "instedd-cookbooks/openswan"
 
 Dir["site-cookbooks/*"].each do |dir|
