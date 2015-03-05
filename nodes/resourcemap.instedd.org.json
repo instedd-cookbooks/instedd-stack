@@ -20,6 +20,10 @@
       "alerts": true,
       "fred_api": true,
       "csd_api": true
+    },
+    "poirot": {
+      "enabled":  true,
+      "server": "10.147.15.222:2120"
     }
   },
   "mysql": {

@@ -20,7 +20,7 @@ DEPENDENCIES
   postfix
   resourcemap
     git: git://github.com/instedd-cookbooks/resourcemap.git
-    revision: a7f108640bc0176fc28cc5fa79f57888d118fed8
+    revision: 532e67da868ceeebbb759a41afded62404234f2e
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
