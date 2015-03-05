@@ -1,7 +1,8 @@
 {
   "run_list": [
     "instedd-common::config_from_bag",
-    "resourcemap"
+    "resourcemap",
+    "newrelic"
   ],
   "automatic": {
     "ipaddress": "resourcemap.instedd.org"
@@ -38,6 +39,7 @@
         "username": ["resourcemap", "mysql", "username"],
         "password": ["resourcemap", "mysql", "password"]
       }
-    }
+    },
+    "newrelic": "instedd"
   }
 }
