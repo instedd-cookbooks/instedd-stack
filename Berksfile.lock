@@ -5,7 +5,7 @@ DEPENDENCIES
   chef-solo-search
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: 326cb4fdc8789338af682f1dafc7c6087e71e56a
+    revision: 36ba106188519ef25e7930ebc3153bb9d06b652d
   mysql
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
