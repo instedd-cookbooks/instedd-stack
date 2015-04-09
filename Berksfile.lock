@@ -3,9 +3,11 @@ DEPENDENCIES
     path: site-cookbooks/act
   bag_config
   chef-solo-search
+  elasticsearch
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: 36ba106188519ef25e7930ebc3153bb9d06b652d
+    revision: 83e0c5bb687d051b7683a391b57759cc0e1b9ec4
+  java
   mysql
     git: git://github.com/jedateach/mysql.git
     revision: eb81b9990d88c295e7ddae1879ae7982fdb0aab4
@@ -17,6 +19,10 @@ DEPENDENCIES
   openswan
     git: git://github.com/instedd-cookbooks/openswan.git
     revision: 137303ba23a2f29175694ecceba9206f154652d0
+  poirot
+    git: git://github.com/instedd-cookbooks/poirot.git
+    revision: 54ae3d3a25d02fc49609e0697a03b279b6646fb3
+    branch: provision
   postfix
   resourcemap
     git: git://github.com/instedd-cookbooks/resourcemap.git
@@ -24,17 +30,16 @@ DEPENDENCIES
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: b46e49fe480e380f89e3902177e2ac63a0428bd8
+    revision: 605e969779ecf435311ff30bf5d6024a3d7e214c
 
 GRAPH
   7-zip (1.0.2)
     windows (>= 1.2.2)
   act (0.1.0)
     openswan (>= 0.0.0)
-  apache2 (2.0.0)
+  apache2 (3.0.1)
     iptables (>= 0.0.0)
     logrotate (>= 0.0.0)
-    pacman (>= 0.0.0)
   apt (2.5.2)
   ark (0.9.0)
     7-zip (>= 0.0.0)
@@ -53,6 +58,12 @@ GRAPH
     postgresql (>= 1.0.0)
     xfs (>= 0.0.0)
   dmg (2.2.0)
+  elasticsearch (0.3.13)
+    ark (>= 0.2.4)
+    build-essential (>= 0.0.0)
+    java (>= 0.0.0)
+    monit (>= 0.0.0)
+    xml (>= 0.0.0)
   erlang (1.5.6)
     apt (>= 1.7.0)
     build-essential (>= 0.0.0)
@@ -70,8 +81,10 @@ GRAPH
     apt (>= 0.0.0)
     passenger_apache2 (<= 2.2.2)
     rbenv (>= 0.0.0)
-  iptables (0.13.2)
-  logrotate (1.6.0)
+  iptables (1.0.0)
+  java (1.31.0)
+  logrotate (1.9.1)
+  monit (0.7.5)
   mysql (5.5.2)
     yum-mysql-community (>= 0.0.0)
   mysql-chef_gem (0.0.5)
@@ -98,10 +111,15 @@ GRAPH
   openssl (2.0.0)
     chef-sugar (>= 0.0.0)
   openswan (0.1.0)
-  pacman (1.1.1)
-  passenger_apache2 (2.2.0)
+  passenger_apache2 (2.2.2)
     apache2 (>= 1.0.4)
     build-essential (>= 0.0.0)
+  poirot (0.1.0)
+    database (>= 0.0.0)
+    instedd-common (>= 0.0.0)
+    mysql (>= 0.0.0)
+    nodejs (>= 0.0.0)
+    rbenv (>= 0.0.0)
   postfix (3.6.2)
   postgresql (3.4.14)
     apt (>= 1.9.0)
@@ -130,15 +148,19 @@ GRAPH
   ssl (1.1.1)
   verboice (0.1.0)
     build-essential (>= 0.0.0)
-    database (>= 2.3.1)
+    database (~ 2.3.1)
     erlang (>= 0.0.0)
     instedd-common (>= 0.0.0)
+    logrotate (>= 0.0.0)
     mysql (< 6.0.0)
     nodejs (>= 0.0.0)
     rbenv (>= 0.0.0)
   windows (1.34.2)
     chef_handler (>= 0.0.0)
   xfs (1.1.0)
+  xml (1.2.13)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
   yum (3.2.2)
   yum-epel (0.4.0)
     yum (~> 3.0)

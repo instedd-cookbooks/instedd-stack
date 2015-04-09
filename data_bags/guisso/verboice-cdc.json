@@ -1,0 +1,15 @@
+{
+  "id": "verboice-cdc",
+  "client_id": {
+    "encrypted_data": "QZ330mMvWQy6yY4lCfJU8AxRmULbugMwHhRIpmaUBk+nRdtienOHN0FYsNxs\nDgUw\n",
+    "iv": "dkV2SUnEejOcNkmfxr8a4g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "client_secret": {
+    "encrypted_data": "We5nlerIxiSwhmc0+r1jg0UE6DRAvX+NFPXUk/ipss9bUKm9MTcA+aelquf9\nuSUyJtZsnzefowZV7qo4y/y1+w==\n",
+    "iv": "4CQoM5KZZaEGeY02e+bFRA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

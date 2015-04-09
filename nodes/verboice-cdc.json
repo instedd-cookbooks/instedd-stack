@@ -1,0 +1,106 @@
+{
+  "run_list": [
+    "chef-solo-search",
+    "ssl",
+    "instedd-common::config_from_bag",
+    "mysql::server",
+    "mysql::client",
+    "java",
+    "elasticsearch",
+    "verboice::asterisk",
+    "verboice",
+    "poirot::web",
+    "role[email_relay]",
+    "newrelic"
+  ],
+  "automatic": {
+    "ipaddress": "verboice-cdc.instedd.org"
+  },
+  "java": {
+    "jdk_version": "7"
+  },
+  "elasticsearch": {
+    "version": "1.3.4",
+    "allocated_memory": "1536m"
+  },
+  "mysql": {
+    "server_host": "localhost",
+    "admin_username": "root"
+  },
+  "verboice": {
+    "host_name": "verboice-cdc.instedd.org",
+    "twilio_callback_url": "https://verboice-cdc.instedd.org/twilio/",
+    "web": {
+      "ssl": {
+        "enabled": true,
+        "cert_file": "/etc/ssl/certs/instedd.org.crt",
+        "cert_key_file": "/etc/ssl/private/instedd.org.key",
+        "cert_chain_file": "/etc/ssl/certs/instedd.org.chain.crt",
+        "instedd_theme_url": "https://a4b5cff76c528f65ea0a-27a040455636240d133755398736da07.ssl.cf2.rackcdn.com"
+      }
+    },
+    "newrelic": {
+      "app_name": "Verboice (CDC)",
+      "server_monitoring": { "hostname": "verboice-cdc.instedd.org" }
+    },
+    "broker": {
+      "nuntium": {
+        "application": "verboice-cdc",
+        "account": "cdc"
+      }
+    },
+    "poirot": {
+      "enabled": true,
+      "server": "localhost:2120",
+      "elasticsearch_url": "http://localhost:9200",
+      "sender": "inproc"
+    },
+    "guisso": {
+      "enabled": true
+    },
+    "asterisk": {
+      "external_ip": "96.127.33.116"
+    }
+  },
+  "poirot": {
+    "host_name": "poirot-verboice-cdc.instedd.org",
+    "from_email": "no-reply@poirot-verboice-cdc.instedd.org",
+    "web": {
+      "auth": {
+        "user": "poirot"
+      },
+      "ssl": {
+        "enabled": true,
+        "force": true,
+        "cert_file": "/etc/ssl/certs/instedd.org.crt",
+        "cert_key_file": "/etc/ssl/private/instedd.org.key",
+        "cert_chain_file": "/etc/ssl/certs/instedd.org.chain.crt"
+      }
+    }
+  },
+  "config_from_bag": {
+    "mysql": "verboice-cdc",
+    "newrelic": "instedd",
+    "poirot": {
+      "item": "verboice-cdc",
+      "values": {
+        "web_pass": ["poirot", "web", "auth", "pass"]
+      }
+    },
+    "guisso": {
+      "item": "verboice-cdc",
+      "values": {
+        "client_id": ["verboice", "guisso", "client_id"],
+        "client_secret": ["verboice", "guisso", "client_secret"]
+      }
+    },
+    "verboice": {
+      "item": "verboice-cdc",
+      "values": {
+        "nuntium_password": ["verboice", "broker", "nuntium", "password"],
+        "oauth_google_api_key": ["verboice", "oauth", "google", "api_key"],
+        "oauth_google_api_secret": ["verboice", "oauth", "google", "api_secret"]
+      }
+    }
+  }
+}

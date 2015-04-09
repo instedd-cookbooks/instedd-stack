@@ -1,0 +1,15 @@
+{
+  "id": "verboice-cdc",
+  "server_root_password": {
+    "encrypted_data": "BVNhhBGrbdXrdJWEo6jspEB8t+2+p5tmluUdkIZ/ZT8=\n",
+    "iv": "z0s/i+nt8GDVsjySbCT4Ug==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "admin_password": {
+    "encrypted_data": "fEH+JcTk4p6aySsX1Z4TJdDuB8z0gQekTuDiGXMpjUY=\n",
+    "iv": "WM4Um3GWjWMn+Vn/snytPA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

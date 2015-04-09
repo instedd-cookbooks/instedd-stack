@@ -1,0 +1,9 @@
+{
+  "id": "verboice-cdc",
+  "web_pass": {
+    "encrypted_data": "TkwCCzx2Qw8yMRKnHbOd4j9Wc6V+yfd9amEVfNxnoKUo4qRfjd8AXhAlISFp\nf6oZUTiFaMA8oq6ANR/9Ry9U4g==\n",
+    "iv": "cmpLT0n7u92MgGNouRzhmQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
