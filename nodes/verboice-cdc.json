@@ -40,8 +40,7 @@
       }
     },
     "newrelic": {
-      "app_name": "Verboice (CDC)",
-      "server_monitoring": { "hostname": "verboice-cdc.instedd.org" }
+      "app_name": "Verboice (CDC)"
     },
     "broker": {
       "nuntium": {
@@ -60,6 +59,11 @@
     },
     "asterisk": {
       "external_ip": "96.127.33.116"
+    }
+  },
+  "newrelic": {
+    "server_monitoring": {
+      "hostname": "verboice-cdc.instedd.org"
     }
   },
   "poirot": {
