@@ -5,6 +5,7 @@
     "instedd-common::config_from_bag",
     "verboice",
     "verboice::asterisk",
+    "verboice::sip_firewall",
     "role[email_relay]",
     "act::cellcom-sip-vpn",
     "newrelic"

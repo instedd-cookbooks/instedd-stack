@@ -30,7 +30,7 @@ DEPENDENCIES
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: 605e969779ecf435311ff30bf5d6024a3d7e214c
+    revision: 7cf55877ad68fe2d500bee3a09b30a4b4b2efd48
 
 GRAPH
   7-zip (1.0.2)
@@ -146,13 +146,15 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   ssl (1.1.1)
-  verboice (0.1.0)
+  verboice (0.2.1)
     build-essential (>= 0.0.0)
     database (~ 2.3.1)
     erlang (>= 0.0.0)
     instedd-common (>= 0.0.0)
+    iptables (>= 1.0.0)
     logrotate (>= 0.0.0)
     mysql (< 6.0.0)
+    newrelic (>= 0.0.0)
     nodejs (>= 0.0.0)
     rbenv (>= 0.0.0)
   windows (1.34.2)
