@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "verboice::sip_firewall"
+  ],
+  "automatic": {
+    "ipaddress": "staging.instedd.org"
+  }
+}
