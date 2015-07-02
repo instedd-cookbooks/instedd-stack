@@ -8,6 +8,7 @@
     "java",
     "elasticsearch",
     "verboice::asterisk",
+    "verboice::sip_firewall",
     "verboice",
     "poirot::web",
     "role[email_relay]",
