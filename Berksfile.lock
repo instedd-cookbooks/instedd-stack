@@ -30,7 +30,7 @@ DEPENDENCIES
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: 7cf55877ad68fe2d500bee3a09b30a4b4b2efd48
+    revision: 25a28c9bcb07f8ac5db66ba0c7e695e585bc051e
 
 GRAPH
   7-zip (1.0.2)
@@ -146,7 +146,7 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   ssl (1.1.1)
-  verboice (0.2.1)
+  verboice (0.2.2)
     build-essential (>= 0.0.0)
     database (~ 2.3.1)
     erlang (>= 0.0.0)

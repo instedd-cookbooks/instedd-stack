@@ -13,6 +13,12 @@
   "automatic": {
     "ipaddress": "verboice.instedd.org"
   },
+  "erlang": {
+    "install_method": "esl",
+    "esl": {
+      "version": "1:17.5"
+    }
+  },
   "verboice": {
     "host_name": "verboice.instedd.org",
     "web": {
