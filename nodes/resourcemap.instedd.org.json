@@ -2,7 +2,10 @@
   "run_list": [
     "instedd-common::config_from_bag",
     "resourcemap",
-    "newrelic"
+    "newrelic",
+    "monit",
+    "monit::ubuntu12fix",
+    "elasticsearch::monit"
   ],
   "automatic": {
     "ipaddress": "resourcemap.instedd.org"
@@ -28,6 +31,12 @@
   },
   "mysql": {
     "server_root_password": ""
+  },
+  "elasticsearch": {
+    "pid_file": "/var/run/elasticsearch.pid"
+  },
+  "monit": {
+    "allow": ["localhost"]
   },
   "config_from_bag": {
     "guisso": {
