@@ -24,9 +24,9 @@
     "web": {
       "ssl": {
         "enabled": true,
-        "cert_file": "/etc/ssl/certs/instedd.org.crt",
-        "cert_key_file": "/etc/ssl/private/instedd.org.key",
-        "cert_chain_file": "/etc/ssl/certs/instedd.org.chain.crt",
+        "cert_file": "/etc/ssl/certs/STAR_instedd_org.crt",
+        "cert_key_file": "/etc/ssl/private/STAR_instedd_org.key",
+        "cert_chain_file": "/etc/ssl/certs/STAR_instedd_org_chain.crt",
         "instedd_theme_url": "https://a4b5cff76c528f65ea0a-27a040455636240d133755398736da07.ssl.cf2.rackcdn.com"
       }
     },
