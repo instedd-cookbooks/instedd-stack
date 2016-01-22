@@ -1,8 +1,16 @@
 {
   "run_list": [
     "instedd-common::config_from_bag",
-    "newrelic"
+    "newrelic",
+    "monit",
+    "elasticsearch::monit"
   ],
+  "elasticsearch": {
+    "pid_file": "/var/run/elasticsearch.pid"
+  },
+  "monit": {
+    "allow": ["localhost"]
+  },
   "automatic": {
     "ipaddress": "instedd2.instedd.org"
   },
