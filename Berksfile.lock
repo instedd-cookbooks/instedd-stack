@@ -6,7 +6,7 @@ DEPENDENCIES
   elasticsearch
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: c438215bd23e25c5d5bb7cba3f3b4de93418247c
+    revision: 77be9fc7df8b73d9899a1035134931a19d118a4b
   java
   mysql
     git: git://github.com/jedateach/mysql.git
