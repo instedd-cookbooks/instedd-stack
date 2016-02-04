@@ -6,7 +6,7 @@ DEPENDENCIES
   elasticsearch
   instedd-common
     git: git://github.com/instedd-cookbooks/instedd-common.git
-    revision: 83e0c5bb687d051b7683a391b57759cc0e1b9ec4
+    revision: c438215bd23e25c5d5bb7cba3f3b4de93418247c
   java
   mysql
     git: git://github.com/jedateach/mysql.git
@@ -26,7 +26,7 @@ DEPENDENCIES
   postfix
   resourcemap
     git: git://github.com/instedd-cookbooks/resourcemap.git
-    revision: 532e67da868ceeebbb759a41afded62404234f2e
+    revision: 025d55b933a3fb44dd23a270666634c717e6cf5e
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
