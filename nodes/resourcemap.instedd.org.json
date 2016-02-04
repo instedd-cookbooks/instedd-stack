@@ -12,6 +12,9 @@
   },
   "resourcemap": {
     "host_name": "resourcemap.instedd.org",
+    "passenger": {
+      "max_requests": 100
+    },
     "guisso": {
       "enabled": true
     },
