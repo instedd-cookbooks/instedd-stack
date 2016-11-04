@@ -1,0 +1,43 @@
+{
+  "run_list": [
+    "chef-solo-search",
+    "instedd-common::config_from_bag",
+    "mysql::server",
+    "verboice::asterisk",
+    "verboice",
+    "role[email_relay]"
+  ],
+  "automatic": {
+    "ipaddress": "verboice-experimental.instedd.org"
+  },
+  "mysql": {
+    "server_host": "localhost",
+    "admin_username": "root"
+  },
+  "verboice": {
+    "host_name": "verboice-experimental.instedd.org",
+    "web": {
+      "ssl": {
+        "enabled": false
+      }
+    },
+    "poirot": {
+      "enabled": false
+    },
+    "guisso": {
+      "enabled": false
+    },
+    "asterisk": {
+      "external_ip": "184.73.47.49"
+    },
+    "hub": {
+      "enabled": false
+    },
+    "telemetry": {
+      "enabled": false
+    }
+  },
+  "config_from_bag": {
+    "mysql": "verboice-experimental"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "admin_password": {
+    "encrypted_data": "kQs4tcAxM4HkuYFaN7a+X0wki8swKsG8wgKfIOaD47E=\n",
+    "iv": "LvUncMK72pZPgRNjSyv/zA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "id": "verboice-experimental",
+  "server_root_password": {
+    "encrypted_data": "jXwHJztTizKiqdLhAPfzAJRkjfT5+DBUmbaXFhSg+0I=\n",
+    "iv": "wHOAVRY2TJhqYC8/VeLU4Q==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
