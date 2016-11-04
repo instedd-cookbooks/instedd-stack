@@ -30,7 +30,8 @@ DEPENDENCIES
   ssl
   verboice
     git: git://github.com/instedd-cookbooks/verboice.git
-    revision: 7b5dc56d005b00d557486458b9e46b7c4d05c702
+    revision: 5a19327b7270fe7b5f6253a4fa8faf3eb77b37d7
+    branch: experimental/asterisk-13
 
 GRAPH
   7-zip (1.0.2)
