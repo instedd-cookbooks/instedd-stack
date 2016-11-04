@@ -1,8 +1,14 @@
 {
   "run_list": [
-    "verboice::sip_firewall"
+    "verboice::sip_firewall",
+    "verboice::asterisk"
   ],
   "automatic": {
     "ipaddress": "staging.instedd.org"
+  },
+  "verboice": {
+    "asterisk": {
+      "external_ip": "107.22.169.11"
+    }
   }
 }
