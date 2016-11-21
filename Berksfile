@@ -10,7 +10,7 @@ cookbook "java"
 cookbook "elasticsearch"
 
 cookbook "instedd-common", github: "instedd-cookbooks/instedd-common"
-cookbook "verboice", github: "instedd-cookbooks/verboice", branch: "experimental/asterisk-13"
+cookbook "verboice", github: "instedd-cookbooks/verboice"
 cookbook "poirot", github: "instedd-cookbooks/poirot", branch: "provision"
 cookbook "nuntium", github: "instedd-cookbooks/nuntium"
 cookbook "resourcemap", github: "instedd-cookbooks/resourcemap"

@@ -1,0 +1,15 @@
+{
+  "id": "verboice",
+  "token": {
+    "encrypted_data": "LYgiUYOCTppIg2qMnLz+odOnyvIgLb/3PBvXtwh5pgJ3/4KXEOxO4Vy7WnQ6\n2iNF2ilH+8sXBZC30GLYoQGxxg==\n",
+    "iv": "tT4A+G6IAgBq9b/59zhqMQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "connector_guid": {
+    "encrypted_data": "p5ry+zyB5P7XYKAvTWZnovLMtAtTyW+mGsaFQN+TxUOwsTsQdnK9MWiIe5d6\nrBOea0HZXtd1gbR6QplxsQI6Jw==\n",
+    "iv": "8plb/ZM/5E4mP/lgjvc8UQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

@@ -3,21 +3,15 @@
     "chef-solo-search",
     "ssl",
     "instedd-common::config_from_bag",
-    "verboice",
     "verboice::asterisk",
     "verboice::sip_firewall",
+    "verboice",
     "role[email_relay]",
     "act::cellcom-sip-vpn",
     "newrelic"
   ],
   "automatic": {
     "ipaddress": "verboice.instedd.org"
-  },
-  "erlang": {
-    "install_method": "esl",
-    "esl": {
-      "version": "1:17.5"
-    }
   },
   "verboice": {
     "host_name": "verboice.instedd.org",
@@ -33,13 +27,19 @@
     "poirot": {
       "enabled": true,
       "server": "174.129.225.38:2120",
-      "elasticsearch_url": "http://174.129.225.38:9200"
+      "elasticsearch_url": "http://search-poirot-vggzwfkozn2uhaslii3lcfcj6e.us-east-1.es.amazonaws.com"
     },
     "guisso": {
       "enabled": true
     },
+    "hub": {
+      "enabled": true
+    },
+    "telemetry": {
+      "enabled": true
+    },
     "asterisk": {
-      "external_ip": "54.85.167.137"
+      "external_ip": "34.192.236.169"
     }
   },
   "config_from_bag": {
@@ -50,6 +50,13 @@
       "values": {
         "client_id": ["verboice", "guisso", "client_id"],
         "client_secret": ["verboice", "guisso", "client_secret"]
+      }
+    },
+    "hub": {
+      "item": "verboice",
+      "values": {
+        "token": ["verboice", "hub", "token"],
+        "connector_guid": ["verboice", "hub", "connector_guid"]
       }
     },
     "verboice": {
