@@ -33,7 +33,8 @@
       "enabled": true
     },
     "hub": {
-      "enabled": true
+      "enabled": true,
+      "url": "https://hub.instedd.org"
     },
     "telemetry": {
       "enabled": true
