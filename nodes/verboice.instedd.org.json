@@ -26,7 +26,7 @@
     },
     "poirot": {
       "enabled": true,
-      "server": "174.129.225.38:2120",
+      "server": "monitoring.production.instedd.org:2120",
       "elasticsearch_url": "http://search-poirot-vggzwfkozn2uhaslii3lcfcj6e.us-east-1.es.amazonaws.com"
     },
     "guisso": {
